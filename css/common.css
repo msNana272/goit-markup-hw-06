@@ -1,4 +1,39 @@
 /* base (vse sho ne klasy)*/
+
+img{display: block; max-width: 100%; height: auto;}
+
+
+
+.container {
+    padding: 0 15px;
+    max-width: 1158px;
+    margin: 0 auto;
+
+}
+ /* ale kuda yogo? */
+.conttaiinner{
+        max-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    @media screen and (min-width: 768px) {
+        .container {
+            max-width: 768px;
+        }
+    }
+
+    @media screen and (min-width: 1158px) {
+        .container {
+            max-width: 1158px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+
 body {
     font-family: "Roboto", sans-serif;
     background: #fff;
@@ -47,12 +82,6 @@ address {font-style: normal; margin:0;}
 
   
 
-.container {
-    padding: 0 15px;
-    max-width: 1158px;
-    margin: 0 auto;
-   
-}
 .contact-address {display: flex;
     align-items: center;
     justify-content: flex-start;

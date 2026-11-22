@@ -1,0 +1,88 @@
+.header { display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0;
+    border-bottom: 1px solid #e7e9fc;
+    
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 0;
+    padding: 0 15px;
+    max-width: 1158px;  margin-left: auto; margin-right: auto; width: 100%;
+}
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+ 
+    align-items: center;
+
+    flex-direction: row;
+    gap: 0;}
+
+
+.nav-menu {margin-left: 76px; margin-right: auto;}
+
+
+.nav-list {align-items: center;
+justify-content: flex-start;
+    flex-direction: row;
+        gap: 40px; padding: 0px; margin: 0px;}
+
+.nav-anchor { display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0;
+     }
+
+       .line{color: #404bbf; position: relative; }
+           .line::after { content: ""; position: absolute;
+               display: block;
+               width: 100%;
+               height: 4px;
+               background-color: #404bbf;
+               border-radius: 2px; 
+               left: 0; top: calc(100% - 4px)
+           }
+
+.a1{ align-items: center;
+justify-content: center;
+flex-direction: column;}
+
+   .a2{align-items: center;
+            justify-content: center;
+            flex-direction: row;
+           }
+
+    .a3{align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+           }
+.nav-anchor-link{padding: 24px 0; gap: 0; display: block; transition: color 250ms ease-in-out; }
+
+.nav-anchor-link:hover, .nav-anchor-link:focus {
+    color: #404bbf;}
+
+
+
+
+  .inf {
+      max-width: none;
+  }
+
+  .tel {
+      max-width: none;
+  }
+
+  

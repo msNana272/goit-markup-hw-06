@@ -1,0 +1,73 @@
+.hero {
+    background: #2e2f42;
+    background-image: linear-gradient(180deg, rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7) 100%), url(../images/hero-bg.jpg);
+    background-repeat: no-repeat; background-position: center; background-size: cover;  
+    padding-top: 188px;
+    padding-bottom: 188px;
+width: 1440px;
+    height: 600px;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 0; margin-left:  auto; margin-right:  auto;
+}
+.hero-box{padding: 0px 15px;
+  
+   
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 48px;}
+
+
+
+
+.hero-title {max-width: 496px; 
+
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+letter-spacing: 0.02em;
+font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #fff;
+
+}
+
+
+.btn {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: #4d5ae5;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+text-align: center;
+    border-radius: 4px;
+        padding: 16px 32px;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15); transition: background-color 250ms ease-in-out ;
+       
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            gap: 0; border: none;
+    /* zaboronyae tekstu perenosytysya white-space: nowrap; ,,padding: 16px 32px; width: 169px;
+        max-width: 169px;
+        height: 56px;   */
+    
+}
+
+.btn:hover, .btn:focus {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    background: #404bbf;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+text-align: center;
+    
+}

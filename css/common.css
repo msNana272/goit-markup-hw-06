@@ -1,0 +1,102 @@
+/* base (vse sho ne klasy)*/
+body {
+    font-family: "Roboto", sans-serif;
+    background: #fff;
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        color: #434455;
+        }
+
+        /*  */
+
+        h1, h2, h3, h4, h5, h6, p {margin: 0;  }
+
+ol,
+ul {list-style-type: none; 
+    padding: 0;
+    margin: 0;}
+
+
+img {display: block; 
+    max-width: 100%; }
+
+.flex { display: flex; } 
+
+a {text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        color: #2e2f42;}
+        
+address {font-style: normal; margin:0;}
+
+/* global (vse sho klasy)*/
+
+
+.accent {font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+
+  
+  
+
+  
+
+.container {
+    padding: 0 15px;
+    max-width: 1158px;
+    margin: 0 auto;
+   
+}
+.contact-address {display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    margin-left: auto;
+}
+
+.contact-address-list {display: flex; flex-grow: 1; gap: 40px;
+}
+
+.contact-address-item {padding: 0px;}
+
+.contacts-link{font-weight: 400; color: #434455; display: flex; padding: 24px 0; 
+transition: color 250ms ease-in-out;
+    }
+.contacts-link:hover, .contacts-link:focus {color: #404bbf;}
+
+.sr-only {display: flex;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,186 +1,231 @@
-.footer {background: #2e2f42; 
-  
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 0;
-    padding: 100px 0;
-    display: flex;
-
-
+/* === 1. ТЕЛЕФОН (базові стилі від 320px) === */
+.footer {
+    background-color: #2e2f42;
+    padding: 96px 0;
 }
- .footer-section1 {padding: 0 15px;
-    width: 1158px;
-    height: 112px;
-    max-width: 1158px;display: flex;
 
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 10px; }
-           .sec-foot {
-               display: flex;
-               align-items: flex-start;
-               justify-content: flex-start;
-               flex-direction: row;
-                max-width: 1158px; padding: 0 15px; margin: 0 auto;
-                height: 112px; width: 1158px;
-              
-           }
+.sec-foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-
-    .footer-container {
-                align-items: flex-start;
-                justify-content: flex-start;
-             margin-right: 120px; 
-                gap: 16px; max-width: 264px;
-       
-    }
-
-   
-
-    .messenger-link-footer{
-            border-radius: 40px;
-            padding: 0;
-            margin: 0;
-            list-style: none;
-            width: 40px;
-            height: 40px;
-            background: #4d5ae5;
-            display: flex;
-            align-items: center;
-            justify-content: center; transition: background-color 250ms ease-in-out ; 
-        }
-    
-        .messenger-link-footer:hover, .messenger-link-footer:focus {
-           background: #31d0aa;
-        }
-         .messenger-footer-svg {color: #f4f4fd}
-
-.footer-logo { font-family: "Raleway", sans-serif;
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.33333;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
-display: inline-block;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row; margin-bottom: 16px;
-    gap: 0;}
-
-.s-footer-logo{  font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.33333;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;}
-
-.footer-text {width: 264px; height: 72px;
-    color: #f4f4fd; font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #f4f4fd;}
-
-  .socmedia {display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 16px;}
-
-    .headline-messegers{font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #fff;}
-        .messenger-box-footer{gap: 16px; display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            flex-direction: row;}
-
-
-
-.subscribe{display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-    width: 453px;
-        height: 80px; margin-left: auto; 
 }
 
-.p-subscribe{font-family: "Roboto", sans-serif;
+.s-footer-logo {
+    color: #4d5ae5;
+}
+
+.footer-text {
+    max-width: 288px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+
+.socmedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.headline-messegers,
+.p-subscribe {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #fff;}
+    color: #ffffff;
+    text-align: center;
+}
 
-.f-subscribe{display: flex;
+.messenger-box-footer {
+    display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 24px; width: 453px;
-        height: 40px;}
+    gap: 16px;
+}
 
-.l-subscribe{}
-
-.ff-subscribe{display: flex;
+.messenger-link-footer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
+    display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0; color: #fff;
-    border-radius: 4px; border: 1px solid #fff; background: #2e2f42;
-    padding: 8px 16px;
-    width: 264px; font-weight: 400;
-        font-size: 12px;
-        line-height: 1.17;
-        letter-spacing: 0.04em;
-    height: 40px; 
-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
-
-
-
-.ff-subscribe::placeholder{
-font-family: "Roboto",
-sans-serif;
-font-weight: 400;
-font-size: 12px;
-line-height: 1.17;
-letter-spacing: 0.04em;
-color: #fff;}
-
-.ff-subscribe:hover, .ff-subscribe:focus{border-color: #31d0aa;
-   
-        
-     }
-
- .ff-subscribe:hover::placeholder{}
-
-
-.fs-button{display: flex;
-    align-items: center; cursor: pointer;
     justify-content: center;
-    flex-direction: row;
-    gap: 16px; border-radius: 4px;
-        padding: 8px 24px;
-        width: 165px; border: none;
-        height: 40px;
-        max-width: 165px; background: #4d5ae5; transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-        .in-button-text{
-                font-family: "Roboto",
-                sans-serif;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 1.5;
-                letter-spacing: 0.04em;
-                color: #fff; gap: 16;}
+.messenger-link-footer:hover,
+.messenger-link-footer:focus {
+    background-color: #31d0aa;
+}
 
- .fs-button:hover, .fs-button:focus{
-         background-color: #31d0aa;}
-        
+.messenger-footer-svg {
+    fill: #f4f4fd;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.f-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.ff-subscribe {
+    width: 288px;
+    height: 40px;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #2e2f42;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ff-subscribe::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.ff-subscribe:hover,
+.ff-subscribe:focus {
+    border-color: #31d0aa;
+}
+
+.fs-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fs-button:hover,
+.fs-button:focus {
+    background-color: #31d0aa;
+}
+
+.in-button-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.fs-button-svg {
+    fill: #ffffff;
+}
+
+/* === 2. ПЛАНШЕТ (від 768px) === */
+@media screen and (min-width: 768px) {
+    .sec-foot {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: baseline;
+        column-gap: 24px;
+        row-gap: 72px;
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+
+    .footer-container,
+    .socmedia,
+    .subscribe {
+        align-items: flex-start;
+    }
+
+    .subscribe {
+        width: auto;
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+
+    .headline-messegers,
+    .p-subscribe {
+        text-align: left;
+    }
+
+    .f-subscribe {
+        flex-direction: row;
+        gap: 24px;
+        width: auto;
+    }
+
+    .ff-subscribe {
+        width: 264px;
+    }
+}
+
+/* === 3. КОМП'ЮТЕР (від 1158px) === */
+@media screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 0;
+    }
+
+    .sec-foot {
+        flex-wrap: nowrap;
+        gap: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-container {
+        margin-right: 120px;
+    }
+
+    .subscribe {
+        margin-left: auto;
+    }
+}

@@ -1,50 +1,84 @@
-.features { 
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: row;
-        gap: 24px; padding: 120px 0;
-            
-               margin-left: auto;
-                        margin-right: auto; }
-
-
-    
-.features-list {
-        align-items: flex-start;
-        justify-content: center;
-        flex-direction: row;
-        gap: 24px;}
-.pictures {display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
-        gap: 0; border: 1px solid #8e8f99;
-                border-radius: 4px;
-                width: 264px;
-                height: 112px; background: #f4f4fd;}
-.features-text {flex-basis: calc((100% - 3 * 24px) / 4);
-       align-items: flex-start; display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 8px;}
-
-.features-svg { }
-.feature-pictures {}
-.features-headline {
-   
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        color: #2e2f42;
-        letter-spacing: 0.02em;
+/* === 1. ТЕЛЕФОН (базові стилі від 320px) === */
+.features {
+        padding-top: 96px;
+        padding-bottom: 96px;
 }
 
+.pictures {
+        display: none;
+}
 
-       
+.features-list {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+}
 
+.features-headline {
+        margin-bottom: 8px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
 
-.feature-p {}
+.feature-p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
-.sr-only {position:absolute;
-white-space: nowrap;
-width: 1px; height: 1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0; padding: 0; margin: -1px; clip-path: inset(100%);}
+/* === 2. ПЛАНШЕТ (від 768px) === */
+@media screen and (min-width: 768px) {
+        .features-list {
+                flex-direction: row;
+                flex-wrap: wrap;
+                column-gap: 24px;
+                row-gap: 72px;
+        }
+
+        .features-text {
+                width: calc((100% - 24px) / 2);
+        }
+
+        .features-headline {
+                text-align: left;
+        }
+}
+
+/* === 3. КОМП'ЮТЕР (від 1158px) === */
+@media screen and (min-width: 1158px) {
+        .features {
+                padding-top: 120px;
+                padding-bottom: 120px;
+        }
+
+        .pictures {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 112px;
+                margin-bottom: 8px;
+                background-color: #f4f4fd;
+                border: 1px solid #8e8f99;
+                border-radius: 4px;
+        }
+
+        .features-text {
+                width: calc((100% - 72px) / 4);
+        }
+
+        .features-headline {
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 1.2;
+        }
+
+        .feature-p {
+                font-weight: 400;
+        }
+}
